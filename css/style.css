@@ -1,0 +1,408 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    background-color: whitesmoke;
+    font-family: 'lato', 'Arial', 'sans-serif';
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+.main{
+    position: relative;
+    width: 100%;
+    height: 663px;
+    background-image:linear-gradient(to left, rgba(0,0,0,0.3), rgba(0,0,0,0.1)), url('../imges/1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div-main{
+    position: absolute;
+    width: 50%;
+    top: 250px;
+    left: 110px;
+    z-index: 2;
+}
+.head-main{
+    width: 65%;
+    font-size: 75px;
+    color: rgba(210, 105, 30, 0.664);
+}
+.para-main{
+    width: 95%;
+    font-size: 15px;
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.btn-main{
+    width: 25%;
+    font-size: 20px;
+    background-color: transparent;
+    color: rgba(210, 105, 30, 0.664);
+    padding: 10px 10px;
+    border-radius: 50px;
+    border:2px solid rgba(210, 105, 30, 0.664);
+    transition: transform 0.5s;
+}
+.btn-main:hover{
+    transform: scale(1.1);
+    color: whitesmoke;
+    background-color: rgba(210, 105, 30, 0.664);
+    border: none;
+    cursor: pointer;
+}
+.section-info{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-color: lightgrey;
+}
+.info-box1{
+    position: absolute;
+    top: -35px;
+    left: 110px;
+    width: 25%;
+    box-shadow: 1px 1px 10px 10px rgba(0,0,0,0.2);
+    background-color: whitesmoke;
+    transition: transform 0.5s;
+}
+.info-box1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.info-box2{
+    position: absolute;
+    top: -35px;
+    left: 510px;
+    width: 25%;
+    box-shadow: 1px 1px 10px 10px rgba(0,0,0,0.2);
+    background-color: whitesmoke;
+    transition: transform 0.5s;
+}
+.info-box2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.info-box3{
+    position: absolute;
+    top: -35px;
+    left: 910px;
+    width: 25%;
+    box-shadow: 1px 1px 10px 10px rgba(0,0,0,0.2);
+    background-color: whitesmoke;
+    transition: transform 0.5s;
+}
+.info-box3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.icn-info{
+    font-size: 50px;
+    padding-top: 25px;
+    padding-left: 140px;
+    padding-bottom: 0px;
+}
+.head-info{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 58px;
+    padding-bottom: 10px;
+}
+.para-info{
+    width: 90%;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    color: grey;
+    text-align: center;
+}
+
+.section-sugar{
+    position: relative;
+    width: 100%;
+    height: 1040px;
+}
+.info-sugar{
+    position: absolute;
+    width: 50%;
+    top: 50px;
+    left: 345px;
+    text-align: center;
+}
+.head-sugar{
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.para-sugar{
+    padding-top: 10px;
+}
+.imgs-sugar{
+    position: absolute;
+    width: 100%;
+    top: 200px;
+}
+.sugar-img1{
+    width: 30%;
+    height: auto;
+    margin-left: 58px;
+    opacity: 0.8;
+}
+.sugar-img1:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.sugar-img2{
+    width: 30%;
+    height: auto;
+    left: auto;
+    opacity: 0.8;
+}
+.sugar-img2:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.sugar-img3{
+    width: 30%;
+    height: auto;
+    left: auto;
+    opacity: 0.8;
+}
+.sugar-img3:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.sugar-img4{
+    width: 30%;
+    height: auto;
+    left: auto;
+    top: auto;
+    margin-left: 58px;
+    opacity: 0.8;
+}
+.sugar-img4:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.sugar-img5{
+    width: 30%;
+    height: auto;
+    left: auto;
+    top: auto;
+    opacity: 0.8;
+}
+.sugar-img5:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.sugar-img6{
+    width: 30%;
+    height: auto;
+    left: auto;
+    top: auto;
+    opacity: 0.8;
+}
+.sugar-img6:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.section-ideas{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background-color: lightgrey;
+}
+.info-ideas{
+    position: absolute;
+    width: 50%;
+    top: 50px;
+    left: 345px;
+    text-align: center;
+}
+.heading-ideas{
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.paragraph-ideas{
+    padding-top: 10px;
+}
+.div-ideas{
+    position: absolute;
+    width: 100%;
+    top: 250px;
+}
+.head-idea-1{
+    margin-left: 75px;
+}
+.para-idea-1{
+    margin-top: 15px;
+    margin-left: 75px;
+    width: 15%;
+}
+.head-idea-2{
+    margin-left: 395px;
+    margin-top: -193px;
+}
+.para-idea-2{
+    margin-top: 15px;
+    margin-left: 395px;
+    width: 15%;
+}
+.head-idea-3{
+    margin-left: 735px;
+    margin-top: -193px;
+}
+.para-idea-3{
+    margin-top: 15px;
+    margin-left: 735px;
+    width: 15%;
+}
+.head-idea-4{
+    margin-left: 1060px;
+    margin-top: -193px;
+}
+.para-idea-4{
+    margin-top: 15px;
+    margin-left: 1060px;
+    width: 15%;
+}
+.btn-ideas{
+    position: absolute;
+    top: 475px;
+    left: 600px;
+    font-size: 20px;
+    background-color: transparent;
+    color: grey;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border:2px solid rgba(210, 105, 30, 0.664);
+    transition: transform 0.5s;
+}
+.btn-ideas:hover{
+    transform: scale(1.1);
+    color: whitesmoke;
+    background-color: rgba(210, 105, 30, 0.664);
+    border: none;
+    cursor: pointer;
+}
+
+.section-food{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+.div-food{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: auto;
+}
+.food-img-1{
+    width: 20%;
+    margin-left: 110px;
+    position: absolute;
+    height: auto;
+    opacity: 0.8;
+}
+.food-img-1:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.food-box-1{
+    position: absolute;
+    width: 20%;
+    height: auto;
+    left: 385px;
+    background-color: whitesmoke;
+    text-align: center;
+    border: 2px solid rgba(210, 105, 30, 0.664);
+    transition: transform 0.5s;
+}
+.food-box-1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.food-img-2{
+    width: 20%;
+    margin-left: 685px;
+    position: absolute;
+    height: auto;
+    opacity: 0.8;
+}
+.food-img-2:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.food-box-2{
+    position: absolute;
+    width: 20%;
+    height: auto;
+    left: 960px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 2px solid rgba(210, 105, 30, 0.664);
+    transition: transform 0.5s;
+}
+.food-box-2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.head-food{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 35px;
+}
+.para-food{
+    padding-left: 15px;
+    font-size: 15px;
+    padding-bottom: 18px;
+}
+
+.last{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.last-img{
+    position: absolute;
+    width: 50%;
+    height: auto;
+}
+.last-box{
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    height: auto;
+    background-color: whitesmoke;
+}
+.head-last{
+    margin-top: 100px;
+    margin-left: 25px;
+    font-size: 35px;
+}
+.last-para-1{
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 90%;
+}
+.last-para-2{
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 90%;
+}
+.last-para-3{
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 55px;
+    font-size: 20px;
+    width: 90%;
+}
